@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Menu, X } from 'lucide-react';
-import logo from 'figma:asset/8593031ad34f4822367e9b7fe71d1431b07e6a63.png';
+
+const logo = 'https://res.cloudinary.com/dsgmd2mwq/image/upload/v1761866063/Darkxhdpi_ie7zdt.jpg';
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);

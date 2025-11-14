@@ -210,28 +210,28 @@ export function Careers() {
               </div>
 
               <div className="flex-1 text-center md:text-left">
-                <h3 className="text-2xl mb-2">Love Anderberg</h3>
+                <h3 className="text-2xl mb-2">---------------</h3>
                 <p className="text-xl text-gray-200 mb-6">Chief Operating Officer</p>
 
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 justify-center md:justify-start">
                     <Mail className="w-5 h-5" />
                     <a href="mailto:love.anderberg@flydronics.com" className="hover:underline">
-                      love.anderberg@flydronics.com
+                      info@flydronics.com
                     </a>
                   </div>
 
                   <div className="flex items-center gap-3 justify-center md:justify-start">
                     <Phone className="w-5 h-5" />
                     <a href="tel:+919876543210" className="hover:underline">
-                      +91 98765 43210
+                      -----------
                     </a>
                   </div>
 
                   <div className="flex items-center gap-3 justify-center md:justify-start">
                     <Linkedin className="w-5 h-5" />
                     <a href="https://linkedin.com/in/loveanderberg" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                      linkedin.com/in/loveanderberg
+                      linkedin.com/in/Flydronics
                     </a>
                   </div>
                 </div>

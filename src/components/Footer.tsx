@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
-import logo from 'figma:asset/8593031ad34f4822367e9b7fe71d1431b07e6a63.png';
+
+const logo = 'https://res.cloudinary.com/dsgmd2mwq/image/upload/v1761866063/Darkxhdpi_ie7zdt.jpg';
 
 export function Footer() {
   return (
@@ -62,11 +63,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>Electronic City, Bangalore, Karnataka, India</span>
+                <span>----------------------</span>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>-------------------</span>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-5 h-5 flex-shrink-0" />

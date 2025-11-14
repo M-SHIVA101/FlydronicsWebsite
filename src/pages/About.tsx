@@ -27,24 +27,28 @@ export function About() {
 
   const leaders = [
     {
-      name: 'Rajesh Kumar',
+      name: '--------',
       role: 'Founder & CEO',
-      description: 'Former ISRO engineer with passion for aerial innovation',
+      description: '--------------------------------',
+      image: '',
     },
     {
-      name: 'Priya Sharma',
+      name: '----------',
       role: 'Head of Training',
-      description: 'DGCA certified instructor with 8+ years experience',
+      description: '--------------------------------',
+      image: '',
     },
     {
-      name: 'Arjun Patel',
+      name: '------------',
       role: 'Chief Technology Officer',
-      description: 'Specialist in AI and autonomous systems',
+      description: '--------------------------------',
+      image: '',
     },
     {
-      name: 'Sneha Reddy',
-      role: 'Manufacturing Head',
-      description: 'Expert in precision UAV production',
+      name: 'Shiva Prakash',
+      role: 'course coordinator',
+      description: 'Advanced knowledge in drone technology and applications.',
+      image: 'https://res.cloudinary.com/dsgmd2mwq/image/upload/v1763115645/WhatsApp_Image_2025-11-14_at_15.47.46_70e7994c_dtuhiy.jpg',
     },
   ];
 
@@ -185,8 +189,12 @@ export function About() {
                 variants={fadeInUp}
                 className="text-center"
               >
-                <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 flex items-center justify-center">
-                  <Users className="w-20 h-20 text-white" />
+                <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                  <ImageWithFallback
+                    src={leader.image}
+                    alt={leader.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl mb-1">{leader.name}</h3>
                 <p className="text-blue-600 mb-2">{leader.role}</p>
@@ -210,19 +218,19 @@ export function About() {
             <motion.div variants={fadeInUp}>
               <Building className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl mb-2">Headquarters</h3>
-              <p className="text-gray-100">Electronic City, Bangalore, Karnataka, India</p>
+              <p className="text-gray-100">--------------------------</p>
             </motion.div>
 
             <motion.div variants={fadeInUp}>
               <Globe className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl mb-2">Reach</h3>
-              <p className="text-gray-100">50+ cities across India</p>
+              <p className="text-gray-100">--------------------</p>
             </motion.div>
 
             <motion.div variants={fadeInUp}>
               <Award className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl mb-2">Contact</h3>
-              <p className="text-gray-100">+91 98765 43210</p>
+              <p className="text-gray-100">-------------</p>
             </motion.div>
           </motion.div>
         </div>

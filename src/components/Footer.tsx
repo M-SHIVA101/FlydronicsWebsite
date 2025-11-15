@@ -10,7 +10,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <img src={logo} alt="Flydronics" className="h-12 w-auto mb-4" />
+            <img src={logo} alt="Flydronics" className="h-12 w-auto mb-4" style={{
+              filter: 'hue-rotate(200deg) saturate(1.2) brightness(1.1)'
+            }} />
             <p className="text-gray-400 mb-4">
               India's premier drone technology company, pioneering the future of aerial innovation.
             </p>
